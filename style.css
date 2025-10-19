@@ -36,8 +36,8 @@ nav a {
 .banner {
     position: relative;
     overflow: hidden;
-    height: 1500px;
-    width: 1680px;
+    height: 600px;
+    width: 1520px;
     
 }
 
@@ -116,3 +116,29 @@ footer {
     color: white;
     margin: 0 10px;
 }
+
+  .funcionarios {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .funcionario {
+            flex: 1 1 30%; /* Três colunas, flexível */
+            margin: 10px;
+            text-align: center;
+        }
+        .funcionario img {
+            width: 100%; /* Imagens ocupam toda a largura do contêiner */
+            height: auto; /* Mantém a proporção */
+            max-width: 150px; /* Largura máxima das imagens */
+        }
+        .descricao {
+            margin-top: 10px;
+        }
+
+        .funcionarios {            
+            background-color: #ff69b4; /* Cor de fundo rosa */            
+            padding: 10px; /* Espaçamento interno */            
+            /*border-radius: 10px; /* Bordas arredondadas */            
+            color: white; /* Cor do texto */            
+            text-align: center; /* Centraliza o texto */        }

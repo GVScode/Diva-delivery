@@ -5,16 +5,6 @@ const products = [
     { id: 4, name: "Escova Simples", price: 19.99, image: "./img/escova no cabelo loiro.jpeg" },
     { id: 5, name: "Alongamento Tips", price: 49.99, image: "./img/unhas esmaltadas nude.jpeg" },
     { id: 6, name: "Lavagem das Madeixas", price: 49.99, image: "./img/lavando cabelo.jpeg" },
-
-
-
-    { id: 7, name: "Lavagem das Madeixas", price: 49.99, image: "./img/Giovanna unha.jpeg" },
-    { id: 8, name: "Lavagem das Madeixas", price: 49.99, image: "./img/Julia sobrancelha.jpeg" },
-    { id: 9, name: "Lavagem das Madeixas", price: 49.99, image: "./img/Larissa Cilios.jpeg" },
-    { id: 10, name: "Lavagem das Madeixas", price: 49.99, image: "./img/Aline Cabeleireira.jpeg" },
-    { id: 11, name: "Vanessa - Esmalteria", price: 49.00, image: "./img/Vanessa unhas.jpeg" },
-    { id: 12, name: "Lavagem das Madeixas", price: 49.99, image: "./img/Vanessa unhas.jpeg" },
-
 ];
 let cart = [];
 
